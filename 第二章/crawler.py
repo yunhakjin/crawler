@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-from urllib.error import *
+import re
 
 #basic method: findAll
 #findAll(tag,attributes,recursive,text,limit,keywords)
@@ -15,6 +15,7 @@ def basic(url):
     for name in nameList:
         print(name.get_text())
 
+#处理导航树
 def tree(url):
     html=urlopen(url)
     obj=BeautifulSoup(html.read())
@@ -35,8 +36,15 @@ def tree(url):
     print("观察父标签*******")
     print(obj.find("img",{"src":"../img/gifts/img3.jpg"}).parent.previous_sibling.get_text())
 
-# url="http://www.pythonscraping.com/pages/warandpeace.html"
-# basic(url)
+#处理正则表达式
+def Regex(url):
+    html=urlopen(url)
+    obj=BeautifulSoup(html)
+    images=obj.findAll("img",{"src":re.compile("\.\./img/gifts/img[0-9]{1}\.jpg")})
+    for img in images:
+        print(img["src"])#获取属性
+url="http://www.pythonscraping.com/pages/warandpeace.html"
+basic(url)
 url="http://www.pythonscraping.com/pages/page3.html"
 tree(url)
-
+Regex(url)
