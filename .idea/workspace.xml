@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cdb7832-ad06-4935-86a5-1eef95a0cbb1" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\crawler.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\wikiSpider\scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\wikiSpider\wikiSpider\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\wikiSpider\wikiSpider\items.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\wikiSpider\wikiSpider\middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\wikiSpider\wikiSpider\pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\wikiSpider\wikiSpider\settings.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python_workspace\crawler\第三章\wikiSpider\wikiSpider\spiders\__init__.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4/API.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4/API" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\python_workspace\crawler\第一章\crawl.py" afterPath="$PROJECT_DIR$/Ch1/crawl.py" />
-      <change type="MOVED" beforePath="E:\python_workspace\crawler\第二章\crawler.py" afterPath="$PROJECT_DIR$/Ch2/crawler.py" />
     </list>
     <ignored path="crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,14 +32,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="acticleSpider.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch3/wikiSpider/wikiSpider/spiders/acticleSpider.py">
+      <file leaf-file-name="API.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4/API.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2993197" vertical-offset="0" max-vertical-offset="506">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="API" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch4/API">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7482993" vertical-offset="0" max-vertical-offset="462">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,6 +66,8 @@
         <option value="$PROJECT_DIR$/第三章/wikiSpider/wikiSpider/items.py" />
         <option value="$PROJECT_DIR$/第三章/wikiSpider/wikiSpider/spiders/acticleSpider.py" />
         <option value="$PROJECT_DIR$/Ch3/wikiSpider/wikiSpider/spiders/acticleSpider.py" />
+        <option value="$PROJECT_DIR$/Ch4/API.py" />
+        <option value="$PROJECT_DIR$/Ch4/API" />
       </list>
     </option>
   </component>
@@ -129,73 +131,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikiSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikiSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikiSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikiSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikiSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiders" />
+              <option name="myItemId" value="Ch4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,7 +143,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ch3/wikiSpider/wikiSpider/spiders/acticleSpider.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ch4/API.py" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
@@ -412,13 +348,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\python3.6\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch3/wikiSpider/wikiSpider/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch4" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="crawler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch3/wikiSpider/wikiSpider/spiders/acticleSpider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch4/API.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -524,6 +460,22 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4/API.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4/API">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7482993" vertical-offset="0" max-vertical-offset="462">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
